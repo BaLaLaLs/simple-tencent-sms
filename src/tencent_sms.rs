@@ -8,6 +8,7 @@ use serde::{Deserialize, Serialize};
 use serde_json::json;
 use sha2::{Digest, Sha256};
 
+#[derive(Clone)]
 pub struct TencentSMS {
     secret_id: String,
     secret_key: String,
