@@ -1,6 +1,6 @@
 [package]
 name = "simple-tencent-sms"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 license = "MIT"
 description= "两行代码实现腾讯云短信发送"
