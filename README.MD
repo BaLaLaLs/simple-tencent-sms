@@ -1,8 +1,8 @@
-### 安装
+### 🚀 安装
 ```
 cargo add simple-tencent-sms
 ```
-### 使用
+### 💡 使用
 secret 获取相关可查看腾讯云官网文档
 ```rust
     let tencent_sms = TencentSMS::new(
@@ -11,7 +11,7 @@ secret 获取相关可查看腾讯云官网文档
         "sms_app_id".into(),
     );
 ```
-#### 发送短信
+#### 📲 发送短信
 ```rust
     let response_json = tencent_sms
         .send_sms(
