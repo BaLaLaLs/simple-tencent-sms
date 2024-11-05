@@ -5,7 +5,7 @@ edition = "2021"
 license = "MIT"
 description= "两行代码实现腾讯云短信发送"
 repository = "https://github.com/BaLaLaLs/simple-tencent-sms"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+keywords = ["tencent", "sms", "send"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
